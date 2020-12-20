@@ -1,0 +1,34 @@
+.app {
+	display: grid;
+	height: 100vh;
+	grid-template-rows: repeat(10, 1fr);
+	font-family: monospace;
+}
+
+.header {
+	grid-row: 1/2;
+	z-index: 1;
+}
+
+.body {
+	grid-row: 2 / 11;
+}
+
+.sidebar {
+	position: absolute;
+	height: 100%;
+	background-color: rgb(255, 175, 136);
+	animation-name: sidebar;
+	animation-duration: 2s;
+	color: white;
+	animation-fill-mode: forwards;
+}
+
+@keyframes sidebar {
+	0% {
+		width: 0vw;
+	}
+	100% {
+		width: 20vw;
+	}
+}

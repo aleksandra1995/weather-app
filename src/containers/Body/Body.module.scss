@@ -1,0 +1,76 @@
+.container {
+	height: 100%;
+	color: white;
+	background-image: url("./background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.weather-card {
+	height: 30rem;
+	width: 70%;
+	margin: auto;
+	position: relative;
+	top: 4rem;
+	background-color: rgb(44, 36, 77);
+	border-radius: 2%;
+}
+
+.search-city-container {
+	text-align: center;
+	position: relative;
+	top: 35%;
+	font-size: 2em;
+}
+
+.input-field {
+	height: 2rem;
+	width: 16rem;
+	margin-top: 1rem;
+}
+.display-weather-container {
+	height: 100%;
+}
+
+.weather-now {
+	height: 50%;
+	display: flex;
+}
+
+.stats {
+	width: 50%;
+	text-align: center;
+	margin-top: 3%;
+}
+
+.temp {
+	font-size: 4em;
+}
+
+.description {
+	font-size: 1em;
+}
+
+.city {
+	font-size: 2em;
+	position: relative;
+	top: 30%;
+	left: 20%;
+}
+
+.weather-forecast {
+	height: 50%;
+	background-color: rgb(211, 193, 211);
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	color: black;
+	font-size: 1.5vw;
+}
+
+.go-back {
+	color: black;
+	position: relative;
+	top: 5%;
+	left: -18%;
+}
