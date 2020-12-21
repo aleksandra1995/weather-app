@@ -107,7 +107,7 @@ class Body extends Component {
 		const forecast = this.state.forecast.map((item: Forecast) => {
 			let day = moment(item.dt_txt).format("dddd");
 			return (
-				<div>
+				<div key={day}>
 					<h3>{day}</h3>
 					<img
 						height='50'
